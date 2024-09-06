@@ -1,2 +1,4 @@
 ---
 # defaults file for run
+
+telemetry_grpc_port: 57000

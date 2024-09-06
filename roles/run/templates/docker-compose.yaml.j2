@@ -5,7 +5,7 @@ services:
     container_name: telegraf
     restart: always
     ports:
-      - 57000:57000
+      - "{{ telemetry_grpc_port }}:57000"
     networks:
       - telemetry
     volumes:
